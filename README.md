@@ -2,7 +2,7 @@
 Zero shot medical image generation via Stein's Identity
 ## What is this?
 
-SCORENETZERO explores whether we can generate medical images
+It explores whether we can generate medical images
 without training any neural network from scratch.
 
 Core idea:
@@ -32,12 +32,12 @@ x_{t+1} = x_t + step * score(x_t) + noise
 
 ### V1 — Pixel Space
 - Method: CLIP score + kernel directly in pixel space
-- Result: CLIP similarity 0.19 → 0.65 (+226%)
+- Result: CLIP similarity 0.19 → 0.65 on avg.
 - Limitation: Images noisy — CLIP gradients unstructured in pixel space
 
 ### V2 — Latent Space
 - Method: CLIP score + kernel through frozen SD-VAE latent space
-- Result: CLIP similarity 0.22 → 0.42 (+90%)
+- Result: CLIP similarity 0.22 → 0.42 on avg.
 - Limitation: SD-VAE trained on natural photos not medical images
 
 ---
@@ -72,5 +72,5 @@ Labels  : None used
 ---
 ## Status
 
-Work in progress. Early stage.
+just a normal experiment from curiosity, nothing else, this intuition can be wrong ...
 
