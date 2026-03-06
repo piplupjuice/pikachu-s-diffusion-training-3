@@ -67,7 +67,7 @@ Labels  : None used
 2. SD-VAE latent space not optimized for medical imaging
 3. CLIP similarity is not FID — not a clinical quality metric
 4. No radiologist evaluation done yet
-5. This is step 1 of the research, not the final paper
+5. just doing for nothing :3 
 
 ---
 ## Status
